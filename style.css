@@ -1,16 +1,86 @@
-
-.home-hmm {
-  font
+body {
+    height: 100%;
 }
 
-.home-title-hmm {
-  color: yellow ;
+/*STYLE PAGE1*/
+.page1 {
+  background-image: url("../Assets/main-bg.jpg");
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*STYLE PAGE1-NAVBAR*/
+.page1-navbar {
+  background: rgba(0, 0, 0, 0.562);
+  padding: 12, 20, 20, 20;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  
+}
+
+.navbar-logo {
+  font-size: 300%;
+  color: white;
+  padding: 20px;
+  text-align: center
+}
+
+.navbar-menu {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  padding-top: 35px;
+  }
+
+.navbar-account-authentication {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  padding-top: 35px;
+}
+
+.navbar-menu-list {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/*STYLE PAGE1-CONTENT*/
+.page1-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white
+}
+
+.page1-title {
+  font-weight: bold;
   font-size: 80px;
+  padding-top: 200px;
+}
+
+.page1-subtitle {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.page1-button {
+  padding-top: 40px;
   font-weight: bold;
 }
 
-.home-button {
-  font-family: sans-serif ;
-  font-size: 100px;
-  font-weight: ;
+.page1-scroll {
+  font-size: 12px;
+  padding-top: 250px;
+}
+
+/*STYLE PAGE2*/
+.page2 {
+  background-image: url('../Assets/the-games-bg.jpg');
 }
