@@ -6168,11 +6168,12 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
   padding: 0;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-right: 10px;
+  margin-left: 10px;
   text-indent: -999px;
   cursor: pointer;
   background-color: #fff;
