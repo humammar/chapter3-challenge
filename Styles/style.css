@@ -1,8 +1,7 @@
 /* GENERAL STYLE */
 body {
   height: 100%;
-  width: 100%;
-    
+  width: 100%;   
 }
 
 .flex-container {
@@ -224,7 +223,14 @@ body {
   text-align: left;
   font-size: 80px;
   line-height: 90px;
-  
+  padding-top: 50px;
+}
+
+.section4-content-table {
+  margin-top: 50px;
+  color: white !important;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 /*STYLE SECTION5*/
@@ -234,7 +240,86 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover, contain;
+
+  padding-top: ;
+  padding-left: 200px;
+  
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  color: white
 } 
+
+.section5-content-title {
+  margin-top: 300px;
+  font-size: 80px;
+}
+
+.section5-content-text {
+  font-size: 20px;
+}
+
+.section5-button {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.text-muted {
+  color: white !important;
+}
+
+.section5-topscore {
+  
+}
+
+.card1 {
+  margin-top: 100px;
+  margin-right: -200px;
+  margin-left: 100px;
+}
+
+.card2 {
+  margin-top: 30px ;
+  margin-right: 0px;
+  margin-left:-100px;
+}
+
+.card3 {
+  margin-top: 30px ;
+  margin-right: -70px;
+  margin-left: ;
+}
+
+.card-title {
+  padding-top: ;
+  color: #c58019;
+  font-size: 21px;
+}
+
+.card-subtitle {
+  color: rgb(112, 112, 112);
+}
+
+.section5-twitter {
+  padding-top: 20px;
+  margin-left: 40px;
+  height: 10% !important;
+  width: 10% !important;
+}
+
+.card-maintext {
+  padding-top: 20px;
+}
 
 /*STYLE SECTION6*/
 .section6 {
@@ -244,10 +329,62 @@ body {
   background-repeat: no-repeat;
   background-size: cover, contain;
 
-  display: flex
+  display: flex;
+
+  color: white;
+
 } 
 
+.section6-content {
+
+}
+
+
+
+.faded-border{
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.section6-content-text {
+  margin-left: 200px;
+  margin-top: 200px;
+  
+}
+
+.section6-content-text-1 {
+  font-size: 30px;
+}
+
+.section6-content-text-2 {
+  font-size: 80px;
+  line-height: 90px;
+  margin-top: 20px;
+}
+
+.section6-content-text-3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.submission-bar {
+  padding-top: 50px;
+}
+
+.section6-button {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
 /*STYLE FOOTER*/
-hr.solid {
-  border-top: 3px solid white;
+
+.footer-text {
+  color: white;
+  font-size: 8px;
+}
+
+hr.footer-line {
+  top: 150px;
+  border: 1px solid #8C8D8E;
 }
